@@ -1,5 +1,5 @@
 from flask import Flask
-from flask_restful import abort, Api, fields, marshal_with, reqparse, Resource
+from flask_restful import abort, Api, marshal_with, reqparse, Resource
 from datetime import datetime
 from models import NotificationModel
 from http_status import HttpStatus
