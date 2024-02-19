@@ -8,6 +8,7 @@ from pytz import utc
 
 class NotificationManager:
     last_id = 0
+    notifications = None
 
     def __init__(self):
         self.notifications = {}
